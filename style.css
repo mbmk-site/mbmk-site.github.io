@@ -311,3 +311,66 @@ footer {
   font-size: 0.92rem;
   color: var(--muted);
 }
+/* Inline Citation Links inside Article Text */
+.cite-ref {
+  font-size: 0.78em;
+  vertical-align: super;
+  line-height: 0;
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+  padding: 0 0.1rem;
+}
+
+.cite-ref:hover {
+  text-decoration: underline;
+}
+
+/* Sources & References Block at End of Article */
+.sources-section {
+  margin-top: 3.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.sources-section h2 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 1.25rem 0;
+}
+
+.sources-list {
+  margin: 0;
+  padding-left: 1.35rem;
+  font-size: 0.96rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.sources-list li {
+  margin-bottom: 0.75rem;
+  padding-left: 0.25rem;
+}
+
+.sources-list li:target {
+  color: var(--text);
+  background-color: var(--surface);
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+}
+
+.sources-list a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 3px;
+  word-break: break-word;
+}
+
+.sources-list a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
